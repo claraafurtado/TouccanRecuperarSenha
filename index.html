@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar senha</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="Logo Touccan.png" alt="Logo Touccan" class="logo">
+        
+        <!-- Mensagem de Feedback -->
+        <div id="feedback" class="feedback"></div>
+    
+        <div class="card">
+            <h2>Digite o código em <p>seu e-mail</p></h2>
+            
+            <!-- Campos de entrada para o código de recuperação -->
+            <div class="codigo-inputs">
+                <input type="text" maxlength="1" class="codigo-digit">
+                <input type="text" maxlength="1" class="codigo-digit">
+                <input type="text" maxlength="1" class="codigo-digit">
+            </div>
+        </div>
+        
+        <!-- Texto e botão "Atualizar" -->
+        <div class="codigo">Não recebeu um código?</div>
+        <button id="atualizar" class="btn-laranja">Enviar outro</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
